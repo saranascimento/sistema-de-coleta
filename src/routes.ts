@@ -12,5 +12,6 @@ routes.get('/items', itemsController.index)
 
 // criação do ponto de coleta
 routes.post('/points', pointsController.create)
+routes.get('/points/:id', pointsController.show)
 
 export default routes
